@@ -139,6 +139,7 @@ btnAgregar - addEventListener("click", function(event) {
     } //if isvalid
 }); //btn AGREGAR
 
+
 window.addEventListener("load", function(event) {
     event.preventDefault();
     if (this.localStorage.getItem("contadorProductos") != null) {
